@@ -44,7 +44,7 @@ const VideoCard = ({
             <CheckCircle sx={{ fontSize: '12px', color: 'gray', ml: '5px' }} />
           </Typography>
           <Typography variant="subtitle2" color="gray" textAlign={'right'}>
-            {snippet?.publishedAt.slice(0, 10)}
+            {snippet?.publishedAt?.slice(0, 10)}
           </Typography>
         </Link>
       </CardContent>
